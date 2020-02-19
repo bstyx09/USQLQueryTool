@@ -3,6 +3,10 @@ This is a tool for pulling USQL data from the Dynatrace API
 It uses a simple GUI for users to insert their queries and report on the results of those queries.
 The data is output to a table and in a json format
 
+![Image of GUI](https://i.imgur.com/tVOYBnt.png)
+![Image of GUI Table](https://i.imgur.com/0m2HclZ.png)
+![Image of GUI Json](https://i.imgur.com/GxMndY5.png)
+
 Typically when an API call is made in Dynatrace it will be returned with extrapolated data because the amount of data being queried is too large.
 This tool will check the extrapolation level and split the main query into smaller time periods to get more accurate data.
 
