@@ -29,5 +29,5 @@ I may start to account for other aggregations in the future, but just getting th
 
 Data from the table can easily copied and pasted into Excel for further manipulation. This solves a pretty significant hurdle a lot of users may have with using data returned from the API.
 
-Currently has been tested with Dynatrace version 1.186 but should still work with most other versions that allow for USQL api calls
+Currently has been tested with Dynatrace version 1.236 but should still work with most other versions that allow for USQL api calls
 This tool is currently querying the endpoint: "api/v1/userSessionQueryLanguage/table"
